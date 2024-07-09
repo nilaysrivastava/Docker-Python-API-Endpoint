@@ -40,7 +40,7 @@ To run this project locally, follow these steps:
 4. **Access the API endpoint**:
    Open a web browser or use a tool like `curl` to access the API endpoint:
    ```bash
-   curl http://localhost:5001/api/hello
+   curl http://localhost:5001
    ```
 
 5. **Stop the container**:
@@ -48,7 +48,7 @@ To run this project locally, follow these steps:
 
 ## API Endpoint
 
-- **URL**: `http://localhost:5001/api/hello`
+- **URL**: `http://localhost:5001`
 - **Method**: `GET`
 - **Response**: JSON object `{ "message": "Hello, Docker!" }` (Example)
 
